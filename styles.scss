@@ -1,0 +1,101 @@
+.container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.productName, .productName1, .navbar-brand {
+  font:{
+    family: "PT Serif";
+    weight: 700;
+    style: italic;
+  }
+}
+.productSub, .productSub1 {
+  font: {
+    family:"PT sans";
+    size: 1.3em;
+  }
+  color: brown;
+}
+button.btn-outline-secondary{
+  color: white;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.productData, .productData1, .productData2, .phone, .nav-link, button.btn-outline-secondary {
+  font-family: 'PT sans';
+}
+.phone {
+  text-align: center;
+  font-size: 3em;
+}
+h4.phone {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.upper-text {
+  padding-top: 10px;
+  line-height: 30px;
+  font-family: 'PT sans';
+  color: white;
+}
+@media (max-width: 1400px){
+  .upper-text{
+    width: 400px;
+  }
+}
+@media (max-width: 900px) {
+  .upper-text{
+    width: 330px;
+  }
+}
+.section__one {
+  background: {
+    image: url('img/ok/Untitled-4.png');
+    size: cover;
+  }
+  box-shadow: 0 3px 7px #666;
+}
+.logo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+nav.navbar.navbar-dark {
+  border-radius: 0 !important;
+}
+.bg-inverse {
+  background: rgba(#373a3c, .7) !important;
+}
+.burunduk {
+  box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #aaa;
+}
+.section__three{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 -3px 5px #aaa;
+  background: {
+    image: url('img/ok/bg3.jpg');
+    size: cover
+  }
+}
+.page-link {
+  cursor: pointer;
+}
+.block__up a{
+  color: white;
+  text-decoration: none;
+  font: {
+    family: 'PT sans';
+    size: 2em;
+  }
+
+}
+.carousel__img {
+  // display: flex;
+}

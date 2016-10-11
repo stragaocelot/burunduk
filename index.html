@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext">
+    <script src="vendor/bootstrap/js/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <title>Главная страница</title>
+  </head>
+  <body class="container">
+    <section class="section__one">
+      <nav class="navbar navbar-dark bg-inverse">
+        <button style="color:white" type="button" data-toggle="collapse" data-target="#uppernavbar" aria-controls="uppernavbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler hidden-md-up pull-xs-right">&#9776;</button>
+        <div id="uppernavbar" class="collapse navbar-toggleable-sm"><a href="#" class="navbar-brand">Счастливый бурундук</a>
+          <ul class="nav navbar-nav col-xs-12 col-md-5">
+            <li class="nav-item"><a href="#sec_two" data-vaule="1" class="nav-link">О нас &nbsp;<i aria-hidden="true" class="fa fa-info-circle"></i></a></li>
+            <li class="nav-item"><a href="#sec_three" data-vaule="2" class="nav-link">Товары &nbsp;<i aria-hidden="true" class="fa fa-check-circle"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="logo">
+        <div class="upper-text col-md-8 text-xs-center">Кедровый орех несет уникальную пользу человеку! Это кладезь полезных веществ, которые мы бережно сохранили для Вас!</div>
+        <div style="width:300px; height:1px; background: white; margin-bottom: 20px;" class="object"></div><a href="#" class="m-b-1"><img src="img/ok/burunduk.png" class="logo-img"></a>
+        <button class="btn btn-outline-secondary btn-lg"> <a href="mailto:loshchilov2128506@gmail.com">НАПИШИТЕ НАМ</a></button>
+      </div>
+    </section>
+    <section id="sec_two" class="section__two">
+      <aside class="block__text col-xs-12 col-sm-12 col-md-5 offset-md-1 p-t-2">
+        <h1 class="productName1">Кедровый орех</h1>
+        <h3 class="productSub1">вкусная штука че</h3>
+        <p class="productData2 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p class="productData2 small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4 class="phone">Вы можете звонить нам на этот телефон</h4>
+        <h2 class="large phone">88800080100 </h2>
+        <h4 class="phone">так же Вы можете писать через почту, WhatsApp, Telegram, Viber</h4>
+      </aside>
+      <div class="block__burunduk col-xs-12 -col-sm-12 col-md-5 p-t-2"><img src="img/ok/Untitled-4.jpg" class="burunduk img-fluid"></div>
+    </section>
+    <section id="sec_three" class="section__three col-xs-12 p-t-3">
+      <div style="background:white" class="block__carousel offset-md-1 col-md-10 col-xs-12 p-x-0">
+        <div class="carousel__img col-md-5 p-x-0"><img class="img-fluid"></div>
+        <div class="carousel__description col-md-7">
+          <h1 class="productName p-t-2"></h1>
+          <h2 class="productSub"></h2>
+          <p class="productData"></p>
+          <p class="productData1"></p>
+        </div>
+        <div class="block__switch col-md-4 pull-md-right">
+          <nav aria-label="Продукты">
+            <ul class="pagination">
+              <li id="button1" data-vaule="1" class="page-item"><a class="page-link"></a></li>
+              <li id="button2" data-vaule="2" class="page-item"><a class="page-link"></a></li>
+              <li id="button3" data-vaule="3" class="page-item"><a class="page-link"></a></li>
+              <li id="button4" data-vaule="4" class="page-item"><a class="page-link"></a></li>
+              <li id="button5" data-vaule="5" class="page-item"><a class="page-link">        </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="block__up col-xs-12 text-xs-center m-t-3">    <a href="#" class="text-xs-center">Наверх  </a></div>
+    </section>
+  </body>
+</html>

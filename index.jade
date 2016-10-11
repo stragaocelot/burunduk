@@ -1,0 +1,93 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel='stylesheet', href='vendor/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='vendor/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='styles.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=cyrillic,cyrillic-ext')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext')
+    script(src='vendor/bootstrap/js/jquery.min.js')
+    script(src='vendor/bootstrap/js/bootstrap.min.js')
+    script(src="js/app.js")
+    title Главная страница
+  body.container
+    section.section__one
+      nav.navbar.navbar-dark.bg-inverse
+        button.navbar-toggler.hidden-md-up.pull-xs-right(style="color:white" type="button" data-toggle="collapse" data-target="#uppernavbar" aria-controls="uppernavbar" aria-expanded="false" aria-label="Toggle navigation") &#9776;
+        .collapse.navbar-toggleable-sm#uppernavbar
+          a(href="#").navbar-brand Счастливый бурундук
+          ul.nav.navbar-nav.col-xs-12.col-md-5
+            li.nav-item
+              a(href="#sec_two", data-vaule='1').nav-link О нас &nbsp;
+                i.fa.fa-info-circle(aria-hidden="true")
+             li.nav-item
+              a(href="#sec_three", data-vaule='2').nav-link Товары &nbsp;
+                i.fa.fa-check-circle(aria-hidden="true")
+      .logo
+        .upper-text.col-md-8.text-xs-center Кедровый орех несет уникальную пользу человеку! Это кладезь полезных веществ, которые мы бережно сохранили для Вас!
+        .object(style="width:300px; height:1px; background: white; margin-bottom: 20px;")
+        a(href="#").m-b-1
+          img.logo-img(src="img/ok/burunduk.png")
+        button.btn.btn-outline-secondary.btn-lg 
+          a(href="mailto:loshchilov2128506@gmail.com") НАПИШИТЕ НАМ
+    section.section__two#sec_two
+      aside.block__text.col-xs-12.col-sm-12.col-md-5.offset-md-1.p-t-2
+        h1.productName1 Кедровый орех
+        h3.productSub1 вкусная штука че
+        p.productData2.small Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        p.productData2.small Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        h4.phone Вы можете звонить нам на этот телефон
+        h2.large.phone 88800080100 
+        h4.phone так же Вы можете писать через почту, WhatsApp, Telegram, Viber
+      .block__burunduk.col-xs-12.-col-sm-12.col-md-5.p-t-2
+        img(src="img/ok/Untitled-4.jpg").burunduk.img-fluid
+          
+    section.section__three.col-xs-12.p-t-3#sec_three
+      .block__carousel.offset-md-1.col-md-10.col-xs-12(style="background:white").p-x-0
+        .carousel__img.col-md-5.p-x-0
+          img.img-fluid
+        .carousel__description.col-md-7
+          h1.productName.p-t-2
+          h2.productSub
+          p.productData
+          p.productData1
+        .block__switch.col-md-4.pull-md-right
+          nav(aria-label='Продукты')
+            ul.pagination
+              li.page-item(id='button1', data-vaule='1')
+                a.page-link
+              li.page-item(id='button2', data-vaule='2')
+                a.page-link
+              li.page-item(id='button3', data-vaule='3')
+                a.page-link
+              li.page-item(id='button4', data-vaule='4')
+                a.page-link
+              li.page-item(id='button5', data-vaule='5')
+                a.page-link         
+      .block__up.col-xs-12.text-xs-center.m-t-3     
+        a(href='#').text-xs-center Наверх  
+          
+    //-       
+    //- section.section__four.col-xs-12.p-t-3
+    //-   .block__certificate.col-md-10.offset-md-1.p-x-0
+    //-     .block__certificate-list.col-md-7.list-group
+    //-       a.list-group-item.list-group-item-action.active.certOne
+    //-         h5.list-group-item-heading Сертификат № 1
+    //-         p.list-group-item-text Тут идет слезливое описание того что мы могём, и желательно на две строчки
+    //-       a.list-group-item.list-group-item-action.certTwo
+    //-         h5.list-group-item-heading Сертификат № 2
+    //-         p.list-group-item-text Тут идет слезливое описание того что мы могём, и желательно на две строчки
+    //-       a.list-group-item.list-group-item-action.certThree
+    //-         h5.list-group-item-heading Сертификат № 3
+    //-         p.list-group-item-text Тут идет слезливое описание того что мы могём, и желательно на две строчки
+    //-       a.list-group-item.list-group-item-action.certFour
+    //-         h5.list-group-item-heading Сертификат № 4
+    //-         p.list-group-item-text Тут идет слезливое описание того что мы могём, и желательно на две строчки
+    //-     .block__certificate-img.col-md-5.p-x-0
+    //-       img(src="img/ok/Untitled-4.jpg").img-fluid
+    //-   
+    //- 
+    //-   
